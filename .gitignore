@@ -1,0 +1,70 @@
+# General Python ignores
+__pycache__/
+*.py[cod]
+*.so
+*.swp
+.DS_Store
+
+# Virtual environment
+venv/
+.env/
+*.venv
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# GIS & Geo Data Files (Large or Temporary)
+*.tif
+*.aux.xml
+*.ovr
+*.prj
+*.shp
+*.shx
+*.dbf
+*.geojson
+*.gml
+*.kml
+*.kmz
+*.gpkg
+*.sqlite
+*.cpg
+*.zip
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.bak
+
+# Output maps and images
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# Data science & ML artifacts
+*.csv
+*.tsv
+*.json
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Folium interactive maps
+*.html
+
+# VS Code & JetBrains IDE configs
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebook outputs
+*.ipynb
