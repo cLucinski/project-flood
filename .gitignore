@@ -65,6 +65,3 @@ logs/
 .vscode/
 .idea/
 *.iml
-
-# Jupyter Notebook outputs
-*.ipynb
